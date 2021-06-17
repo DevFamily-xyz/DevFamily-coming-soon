@@ -4,10 +4,10 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url(images/background.jpg);
+  background: #fff url(images/background.jpg) center no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   height: 100vh;
-  background-position: center;
   position: relative;
   font-family: "Dosis", sans-serif;
   color: #c9dbdb;
@@ -103,8 +103,9 @@ a:hover {
   h2 {
     letter-spacing: 5px;
   }
-  p {
+ p {
     padding: 0 3rem 0 3rem;
+    line-height: 1.5rem;
   }
   .timer .row {
     padding: 0.5em;
